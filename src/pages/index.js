@@ -12,13 +12,18 @@ const IndexPage = ({ Testimonial }) => (
           We handpick new content on product development, user experience,
           analytics, and more sent right to your inbox.
         </p>
-        <div>
-          <input type="form" placeholder="Your email address" />
+        <div className="input">
+          <input
+            type="email"
+            className="form-control"
+            aria-describedby="emailHelp"
+            placeholder="Your email adress"
+          />
         </div>
-        <div>
-          <Button color="primary" size="large ">
+        <div className="subscribe-button">
+          <button type="button" className="btn btn-primary">
             Subscribe
-          </Button>{' '}
+          </button>
         </div>
         <div>{Testimonial}</div>
       </div>
