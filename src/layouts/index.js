@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/index.scss'
 
 const Layout = ({ children, data }) => (

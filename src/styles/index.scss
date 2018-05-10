@@ -1,1 +1,5 @@
-@import 'pages/index.scss';
+@import 'variables';
+
+@import '~bootstrap/scss/bootstrap';
+
+@import 'pages/index';
