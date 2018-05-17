@@ -26,7 +26,17 @@
   }
 
   &__button {
-    font-weight: 700;
+    font-weight: 400;
     padding: 0.75rem;
+  }
+}
+
+.testimonial {
+  &__header {
+    @extend .text-center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
   }
 }
