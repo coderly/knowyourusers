@@ -35,8 +35,19 @@ const IndexPage = ({ Testimonial }) => (
       <Col sm="12" md={{ size: 8, offset: 2 }}>
         <h1 className="testimonial__header">WHAT OTHERS ARE SAYING</h1>
       </Col>
-      <Col sm="6" md={{ size: 8, offset: 2 }}>
+      <Col sm="6" md={{ size: 3, offset: 2 }}>
         <img src={avatar} alt="avatar" />
+      </Col>
+      <Col sm="6" md={{ size: 6 }}>
+        <p className="testimonial__quote">
+          "I've learned so much about customer development by reading the
+          articles shared in Know Your Users."
+        </p>
+        <Col sm="6" md={{ size: 12 }}>
+          <p className="testimonial__quote__author">
+            - Joelle Goodman, Partner at ChurnBuster, Co-Host of RocketShip
+          </p>
+        </Col>
       </Col>
     </Row>
   </Container>
