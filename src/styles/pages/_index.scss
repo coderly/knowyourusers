@@ -1,3 +1,11 @@
+.navigation {
+  @extend .text-center;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0;
+  margin: 0 0 1em 0;
+}
+
 .hero {
   @extend .text-center;
 
@@ -31,6 +39,11 @@
   }
 }
 
+.avatar {
+  width: 70px;
+  height: 70px;
+}
+
 .testimonial {
   &__header {
     @extend .text-center;
@@ -47,8 +60,7 @@
 
     &__author {
       font-size: 11px;
-      font-family: georgia;
-      font-style: italic;
+      font-family: "Open Sans", sans-serif;
     }
   }
 }
